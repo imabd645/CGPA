@@ -8,6 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+        <style>
+        /* Footer Styles (Index Only) */
+        .app-footer {
+            margin-top: 2rem;
+            text-align: center;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .app-footer p {
+            font-size: 0.95rem;
+            opacity: 0.8;
+            color: #f8fafc;
+        }
+
+        .app-footer span {
+            font-weight: 600;
+            background: linear-gradient(to right, #c084fc, #f472b6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+
 </head>
 <body>
     <div class="background-blobs">
@@ -50,7 +80,12 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>Created by <span>Maaz Hassan</span></p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
